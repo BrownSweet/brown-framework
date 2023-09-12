@@ -1,6 +1,6 @@
 {
-    "name": "topthink/think",
-    "description": "the new thinkphp framework",
+    "name": "brown-framework",
+    "description": "基于tp6的rpc框架",
     "type": "project",
     "keywords": [
         "framework",
@@ -11,19 +11,16 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
-        },
-        {
-            "name": "yunwuxin",
-            "email": "448901948@qq.com"
+            "name": "田雨",
+            "email": "455764041@qq.com"
         }
     ],
     "require": {
-        "php": ">=7.2.5",
+        "php": ">=7.4",
         "topthink/framework": "^6.1.0",
         "topthink/think-orm": "^2.0",
-        "topthink/think-filesystem": "^1.0"
+        "topthink/think-filesystem": "^1.0",
+        "brown-rpc/brown-rpc": "v3.3.0"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",

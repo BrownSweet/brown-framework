@@ -1,5 +1,5 @@
 {
-    "name": "brown-framework",
+    "name": "brown/brown-framework",
     "description": "基于tp6的rpc框架",
     "type": "project",
     "keywords": [
